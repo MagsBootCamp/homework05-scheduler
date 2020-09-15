@@ -27,7 +27,6 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="today" class="lead"></p>
-      
      
     </header>
 
@@ -36,9 +35,19 @@
         <h2 class="date"></h2>
       <!-- Timeblocks go here -->
             <div class="row"> 9 AM <a class="btn btn-primary" class="saveBtn" class=".saveBtn i:hover"> SAVE </a></div>
-                    
+            
+             <!-- Timeblocks go here -->
+              <p>
+              <input onclick="changeContent('myTable', 0, 0, 'Hello')" value="Change content">
+              </p>
 
             <div class="row">10 AM <a class="btn btn-primary" class="saveBtn" class=".saveBtn i:hover"> SAVE </a></div>
+
+             <!-- need to create the function for enter event and change content to then save to local storage -->
+            <p>
+              <input onclick="changeContent()" value="Enter event">
+              </p>
+
 
 
             <div class="row">11 AM <a class="btn btn-primary" class="saveBtn" class=".saveBtn i:hover"> SAVE </a></div>
