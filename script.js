@@ -1,10 +1,11 @@
 
-
+//Note - my flow charts show my thoughts.
+//Ive run out of time again so would appreciate you looking at my flow charts so that you can see my logic. Thanks
 
 //VARIABLES
 //Establishing the variables to store the events entered by theuser and to be stored in local storage. They are stored local because.....
 
-var nineAmEvent = ( the string entered by the user and clicks on save);
+var nineAmEvent = ( //the string entered by the user and clicks on save);
 
 var tenAmEvent = ;
 
